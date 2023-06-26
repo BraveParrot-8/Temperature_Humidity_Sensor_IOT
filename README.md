@@ -1,4 +1,4 @@
-Author: Christian Holmström
+Author: Christian Holmström <br>
 ID:ch223wu
 
 # Temperature and Humidity Sensor IOT
