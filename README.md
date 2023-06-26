@@ -8,6 +8,7 @@ ID:ch223wu
 ## Overview
 This project is about measuring temperature and humidity and displaying their current values, as well as monitoring how these values change over time. 
 It is designed for beginners and can be completed within an estimated time frame of 2-3 hours, following this tutorial.
+
 ## Objective
 The purpose of this project is to enable real-time monitoring of temperature and humidity, as well as logging the sensor data for analysis over time. 
 This system provides valuable insights into the environment being monitored. 
@@ -66,9 +67,11 @@ sudo usermod -a -G uucp $USER
 By following these steps, you will have Python, Node.js, Visual Studio Code, the PyMakr extension, and the latest MicroPython firmware set up for your Raspberry Pi Pico. You are now ready to start coding and uploading programs to your microcontroller.
 
 ## Putting everything together
-This diagram showcases the process of connecting the DHT11 sensor to the Raspberry Pi Pico WH using a breadboard.
+This diagram showcases the process of connecting the DHT11 sensor to the Raspberry Pi Pico WH using a breadboard. In this diagram i used a dht22 because the program i used diden't have dht11 as a sensor.
+
 
 <img src = 'https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Sensor_Diagram.png?raw=true'>
+
 ## Platform
 The chosen platform for this project is Adafruit. 
 It provides a user-friendly and free platform that is well-suited for beginners. 
@@ -124,6 +127,9 @@ We have created a dashboard on Adafruit that utilizes the two feeds we previousl
 
 
 ## Final thoughts and design
+
+The project is very simple, but sense i have never used IOT and sensors i decieded to stick with a temperature and humidty project. 
+I do feel more incluined to do something more advanced in the future now that i know the basic.
 
 <img src = 'https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Final_Project.jpg?raw=true' width =900 height = 600>
 
