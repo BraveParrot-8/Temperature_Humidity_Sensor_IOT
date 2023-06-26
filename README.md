@@ -37,6 +37,8 @@ For the IDE, we will be using Visual Studio Code. It provides a robust and user-
 Additionally, we will utilize the PyMakr extension, which enables code uploading to the Raspberry Pi Pico WH. 
 To use the PyMakr extension, it is necessary to install Node.js.
 
+I haved used windows for tutorial.
+
 ### Step-by-step
 1.Install Python if you don't already have it installed on your computer. You can download the latest version of Python from the official Python website (https://www.python.org) and follow the installation instructions provided.
 
@@ -58,7 +60,7 @@ f. Wait for the board to disconnect and reconnect automatically.
 By following these steps, you will have Python, Node.js, Visual Studio Code, the PyMakr extension, and the latest MicroPython firmware set up for your Raspberry Pi Pico. You are now ready to start coding and uploading programs to your microcontroller.
 
 ## Putting everything together
-This diagram showcases the process of connecting the DHT11 sensor to the Raspberry Pi Pico WH using a breadboard. In this diagram i used a dht22 because the program i used diden't have dht11 as a sensor.
+This diagram showcases the process of connecting the DHT11 sensor to the Raspberry Pi Pico WH using a breadboard. In this diagram, I used a DHT22 because the program I used didn't have the DHT11 sensor available.
 
 
 <img src = 'https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Sensor_Diagram.png?raw=true'>
@@ -119,8 +121,9 @@ We have created a dashboard on Adafruit that utilizes the two feeds we previousl
 
 ## Final thoughts and design
 
-The project is very simple, but sense i have never used IOT and sensors i decieded to stick with a temperature and humidty project. 
-I do feel more incluined to do something more advanced in the future now that i know the basic.
+The project I'm working on is relatively simple, as I wanted to familiarize myself with IoT and sensors. 
+I chose to focus on a temperature and humidity project, as it serves as a great starting point for understanding sensor integration and data monitoring. 
+I plan to explore more advanced projects in the future, now that I have a basic understanding.
 
 <img src = 'https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Final_Project.jpg?raw=true' width =900 height = 600>
 
