@@ -109,7 +109,9 @@ Now that we have successfully set up our Raspberry Pi Pico to send weather data 
 We have created a dashboard on Adafruit that utilizes the two feeds we previously set up.
 
 
-Bild på data!
+<img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/AdaFruit_Temp_Hum.png?raw=true' width = 500>
+
+
 ## Final thoughts and design
 
 Bild på projektet!
