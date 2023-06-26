@@ -11,7 +11,13 @@ ID:ch223wu
 
 
 ## Material
-
+|    | Material | Price (SEK) |
+|----|----------|-------------|
+| <img src='' width=150> | Raspberry Pi Pico WH | 109 |
+| <img src='' width=150> | DHT11 | 49 |
+| <img src='' width=150> | Breadboard           | 69  |
+| <img src='' width=150> | Jumper cables M-to-M | 29  |
+| <img src='' width=150> | micro-USB cable | 19 |
 
 ## Computer setup
 
