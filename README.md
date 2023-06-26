@@ -98,6 +98,8 @@ Secrets: Stores sensitive information such as WiFi network name and password sep
 
 MQTT: Contains MQTT-related functions and settings for communication with the MQTT broker.
 
+[Click here to view the mqtt.py file](https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/picow-micropthon/mqtt.py)
+
 Main: This is where the main code for my project resides, including importing the other files, sensor readings, data transmission, and other project-specific functions.
 
 [Click here to view the main.py file](https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/picow-micropthon/main.py)
