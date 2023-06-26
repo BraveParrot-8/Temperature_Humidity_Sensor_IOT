@@ -1,5 +1,5 @@
 Author: Christian Holmström <br>
-ID:ch223wu
+ID: ch223wu
 
 # Temperature and Humidity Sensor IOT
  <p align="center">
