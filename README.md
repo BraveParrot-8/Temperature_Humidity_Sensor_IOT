@@ -66,13 +66,29 @@ sudo usermod -a -G uucp $USER
 By following these steps, you will have Python, Node.js, Visual Studio Code, the PyMakr extension, and the latest MicroPython firmware set up for your Raspberry Pi Pico. You are now ready to start coding and uploading programs to your microcontroller.
 
 ## Putting everything together
-
+This diagram showcases the process of connecting the DHT11 sensor to the Raspberry Pi Pico WH using a breadboard.
 ## Platform
+The chosen platform for this project is Adafruit. 
+It provides a user-friendly and free platform that is well-suited for beginners. 
+Adafruit offers simple visualizations to present your data effectively.
 
+To get started, we need to set up an account on Adafruit IO. 
+This account will allow us to utilize the platform's features for data logging and visualization. 
+Once registered, we can create two separate feeds—one for temperature and another for humidity. 
+The process of setting up feeds is detailed in the instructions available on the Adafruit website.
+
+By following the provided instructions, we can easily create feeds on Adafruit IO for temperature and humidity. 
+These feeds will serve as repositories for storing and organizing the sensor data collected by the Raspberry Pi Pico WH. 
+We can then utilize Adafruit's visualization tools to present the data in a clear and understandable manner.
 
 ## Code
+We organize our code using a standard structure that should be followed when creating projects. 
+
 
 ## Transmitting data
+
+We use WiFi and MQTT protocols to transmit temperature and humidity data from the Raspberry Pi Pico WH to Adafruit. 
+Data is sent every 20 seconds for real-time monitoring and long-term analysis purposes.
 
 ## Presenting data
 
