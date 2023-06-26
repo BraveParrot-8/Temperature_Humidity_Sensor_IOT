@@ -30,14 +30,14 @@ To power the Raspberry Pi Pico WH, we will use a micro-USB cable, which will als
 | <img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/dht11_49.jpg?raw=true' width=150> | DHT11 | 49 |
 | <img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/breadboard_69.jpg?raw=true' width=150> | Breadboard           | 69  |
 | <img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/jumper_29.jpg?raw=true' width=150> | Jumper cables M-to-M | 29  |
-| <img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/microusb_19.webp?raw=true' width=150> | micro-USB cable | 19 |
+| <img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/microusb_19.webp?raw=true' width=150> | Micro-USB cable | 19 |
 
 ## Computer setup
 For the IDE, we will be using Visual Studio Code. It provides a robust and user-friendly coding environment. 
 Additionally, we will utilize the PyMakr extension, which enables code uploading to the Raspberry Pi Pico WH. 
 To use the PyMakr extension, it is necessary to install Node.js.
 
-I haved used windows for tutorial.
+In the tutorial, I utilized the Windows operating system as my primary platform.
 
 ### Step-by-step
 1.Install Python if you don't already have it installed on your computer. You can download the latest version of Python from the official Python website (https://www.python.org) and follow the installation instructions provided.
