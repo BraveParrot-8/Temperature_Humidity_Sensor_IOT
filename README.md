@@ -54,16 +54,7 @@ d. A new drive named "RPI-RP2" or similar should appear in your file system. Thi
 e. Move the downloaded .uf2 firmware file into this storage. It will automatically trigger the firmware update process.
 f. Wait for the board to disconnect and reconnect automatically.
 
-If you are using a Linux machine, an additional step is required:
 
-For Debian/Fedora, enter the following command in the terminal:
-bash
-Copy code
-sudo usermod -a -G dialout $USER
-For Arch, enter the following command in the terminal:
-bash
-Copy code
-sudo usermod -a -G uucp $USER
 By following these steps, you will have Python, Node.js, Visual Studio Code, the PyMakr extension, and the latest MicroPython firmware set up for your Raspberry Pi Pico. You are now ready to start coding and uploading programs to your microcontroller.
 
 ## Putting everything together
