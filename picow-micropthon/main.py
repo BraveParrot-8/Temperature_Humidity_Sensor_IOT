@@ -20,11 +20,11 @@ WIFI_PASS = secrets["password"] # No this is not our regular password. :)
 # Adafruit IO (AIO) configuration
 AIO_SERVER = "io.adafruit.com"
 AIO_PORT = 1883
-AIO_USER = "Braver_Parrot"
-AIO_KEY =  "aio_ZXWV44kFSiXe9VEDTW0ham84fNcN"
+AIO_USER = "" #Your Username here
+AIO_KEY =  "" #Your AIO Key here
 AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id())  # Can be anything
-AIO_RANDOMS_FEED = "Braver_Parrot/feeds/random"
-AIO_HUMIDITY_FEED = "Braver_Parrot/feeds/humidity"
+AIO_RANDOMS_FEED = "" #Adress for temp, could not change the name randoms for some reason
+AIO_HUMIDITY_FEED = "" # adress for humidity
  
 # END SETTINGS
 
