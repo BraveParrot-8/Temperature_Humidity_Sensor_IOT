@@ -84,7 +84,17 @@ We can then utilize Adafruit's visualization tools to present the data in a clea
 ## Code
 We organize our code using a standard structure that should be followed when creating projects. 
 
-<img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Code_Structure.png?raw=true' width = 200>
+<img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Code_Structure.png?raw=true' width = 200
+
+I have divided my code into four files to organize and separate different parts of my project:
+
+Boot: Handles WiFi connection with configuration settings and connection code.
+
+Secrets: Stores sensitive information such as WiFi network name and password separately to protect them.
+
+MQTT: Contains MQTT-related functions and settings for communication with the MQTT broker.
+
+Main: This is where the main code for my project resides, including importing the other files, sensor readings, data transmission, and other project-specific functions.
 
 ## Transmitting data
 
@@ -92,5 +102,14 @@ We use WiFi and MQTT protocols to transmit temperature and humidity data from th
 Data is sent every 20 seconds for real-time monitoring and long-term analysis purposes.
 
 ## Presenting data
+Now that we have successfully set up our Raspberry Pi Pico to send weather data to our feeds on Adafruit, we can visualize this data using the Adafruit platform.
+We have created a dashboard on Adafruit that utilizes the two feeds we previously set up.
 
+
+Bild på data!
 ## Final thoughts and design
+
+Bild på projektet!
+
+
+
