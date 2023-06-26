@@ -96,6 +96,9 @@ Boot: Handles WiFi connection with configuration settings and connection code.
 
 Secrets: Stores sensitive information such as WiFi network name and password separately to protect them.
 
+[Click here to view the secrets.py file](https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/picow-micropthon/secrets.py)
+
+
 MQTT: Contains MQTT-related functions and settings for communication with the MQTT broker.
 
 [Click here to view the mqtt.py file](https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/picow-micropthon/mqtt.py)
