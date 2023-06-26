@@ -27,7 +27,7 @@ To power the Raspberry Pi Pico WH, we will use a micro-USB cable, which will als
 |----|----------|-------------|
 | <img src='' width=150> | Raspberry Pi Pico WH | 109 |
 | <img src='' width=150> | DHT11 | 49 |
-| <img src='' width=150> | Breadboard           | 69  |
+| <img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/breadboard_69.jpg?raw=true' width=150> | Breadboard           | 69  |
 | <img src='' width=150> | Jumper cables M-to-M | 29  |
 | <img src='' width=150> | micro-USB cable | 19 |
 
