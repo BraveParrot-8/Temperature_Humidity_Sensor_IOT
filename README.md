@@ -67,6 +67,8 @@ By following these steps, you will have Python, Node.js, Visual Studio Code, the
 
 ## Putting everything together
 This diagram showcases the process of connecting the DHT11 sensor to the Raspberry Pi Pico WH using a breadboard.
+
+<img src = 'https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Sensor_Diagram.png?raw=true'>
 ## Platform
 The chosen platform for this project is Adafruit. 
 It provides a user-friendly and free platform that is well-suited for beginners. 
