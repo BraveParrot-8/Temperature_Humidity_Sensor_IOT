@@ -1,1 +1,1 @@
-# Temperature_Humidity_Sensor_IOT
+# Temperature and Humidity Sensor IOT
