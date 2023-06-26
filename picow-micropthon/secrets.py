@@ -1,4 +1,4 @@
 secrets = {
-    'ssid': 'Tele2_a56923',
-    'password':'q2nxitwm'
+    'ssid': '',# your wifi name
+    'password':'' # your password for wifi
 }
