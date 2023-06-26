@@ -66,7 +66,7 @@ try:                      # Code between try: and finally: may cause an error
         send_temperature(temperature)
         sen_humidity(humidity)
 
-        time.sleep(5)
+        time.sleep(20)
         
 finally:                  # If an exception is thrown ...
     client.disconnect()   # ... disconnect the client and clean up.
