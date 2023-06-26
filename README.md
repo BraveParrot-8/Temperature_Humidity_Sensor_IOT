@@ -100,6 +100,9 @@ MQTT: Contains MQTT-related functions and settings for communication with the MQ
 
 Main: This is where the main code for my project resides, including importing the other files, sensor readings, data transmission, and other project-specific functions.
 
+[Click here to view the main.py file](https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/picow-micropthon/main.py)
+
+
 ## Transmitting data
 
 We use WiFi and MQTT protocols to transmit temperature and humidity data from the Raspberry Pi Pico WH to Adafruit. 
