@@ -84,7 +84,8 @@ We can then utilize Adafruit's visualization tools to present the data in a clea
 ## Code
 We organize our code using a standard structure that should be followed when creating projects. 
 
-<img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Code_Structure.png?raw=true' width = 200
+<img src="https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/Code_Structure.png?raw=true" width="200">
+
 
 I have divided my code into four files to organize and separate different parts of my project:
 
