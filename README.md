@@ -50,10 +50,15 @@ In the tutorial, I utilized the Windows operating system as my primary platform.
 
 5.Update the firmware on the Raspberry Pi Pico:
 a. Download the MicroPython firmware in .uf2 format. Make sure to get the latest stable version from the Releases section and not the Nightly builds. You can find the firmware on the official Raspberry Pi Pico GitHub repository (https://github.com/raspberrypi/pico-micropython-examples/releases).
+
 b. Connect the micro-USB cable to the Raspberry Pi Pico.
+
 c. While holding down the BOOTSEL button on the board, connect the other end of the micro-USB cable to your computer. Once it's plugged in, you can release the BOOTSEL button.
+
 d. A new drive named "RPI-RP2" or similar should appear in your file system. This is the Raspberry Pi Pico's storage.
+
 e. Move the downloaded .uf2 firmware file into this storage. It will automatically trigger the firmware update process.
+
 f. Wait for the board to disconnect and reconnect automatically.
 
 
