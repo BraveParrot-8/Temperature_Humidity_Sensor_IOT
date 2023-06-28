@@ -16,7 +16,7 @@ For instance, it can be utilized to track temperature and humidity levels on a b
 
 ## Material
 For this project, we will be working with the Raspberry Pi Pico WH microcontroller. 
-The Raspberry Pi Pico WH offers numerous digital and analog input and output pins, along with a 2.4GHz wireless interface. For detailed information about the Pico WH, please refer to the datasheet.
+The Raspberry Pi Pico WH offers numerous digital and analog input and output pins, along with a 2.4GHz wireless interface.
 
 To measure temperature and humidity, we have selected the DHT11 Humidity & Temperature Sensor, which provides a digital output. 
 It has a measurement range of 0-50°C (32-122°F) for temperature and 20-90% RH (Relative Humidity) for humidity, which is suitable for this project.
@@ -42,7 +42,7 @@ In the tutorial, I utilized the Windows operating system as my primary platform.
 ### Step-by-step
 1.Install Python if you don't already have it installed on your computer. You can download the latest version of Python from the official Python website (https://www.python.org) and follow the installation instructions provided.
 
-2.Download and install Node.js. Visit the official Node.js website (https://nodejs.org) and download the current version (not LTS) of Node.js that is compatible with your operating system. Follow the installation instructions to complete the setup.
+2.Download and install Node.js. Visit the official Node.js website (https://nodejs.org) and download the current version of Node.js that is compatible with your operating system. Follow the installation instructions to complete the setup.
 
 3.Download and install the Visual Studio Code IDE (VSCode) from the official website (https://code.visualstudio.com). Choose the appropriate version for your operating system and follow the installation instructions.
 
