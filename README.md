@@ -49,17 +49,17 @@ In the tutorial, I utilized the Windows operating system as my primary platform.
 4.Open Visual Studio Code and navigate to the Extensions Marketplace. Search for the "PyMakr" extension and install it. This extension enables communication and code uploading to the Raspberry Pi Pico from within Visual Studio Code.
 
 5.Update the firmware on the Raspberry Pi Pico:
-a. Download the MicroPython firmware in .uf2 format. Make sure to get the latest stable version from the Releases section and not the Nightly builds. You can find the firmware on the official Raspberry Pi Pico GitHub repository (https://github.com/raspberrypi/pico-micropython-examples/releases).
+ a. Download the MicroPython firmware in .uf2 format. Make sure to get the latest stable version from the Releases section and not the Nightly builds. You can find the firmware on the official Raspberry Pi Pico GitHub repository (https://github.com/raspberrypi/pico-micropython-examples/releases).
 
-b. Connect the micro-USB cable to the Raspberry Pi Pico.
+ b. Connect the micro-USB cable to the Raspberry Pi Pico.
 
-c. While holding down the BOOTSEL button on the board, connect the other end of the micro-USB cable to your computer. Once it's plugged in, you can release the BOOTSEL button.
+ c. While holding down the BOOTSEL button on the board, connect the other end of the micro-USB cable to your computer. Once it's plugged in, you can release the BOOTSEL button.
 
-d. A new drive named "RPI-RP2" or similar should appear in your file system. This is the Raspberry Pi Pico's storage.
+ d. A new drive named "RPI-RP2" or similar should appear in your file system. This is the Raspberry Pi Pico's storage.
 
-e. Move the downloaded .uf2 firmware file into this storage. It will automatically trigger the firmware update process.
+ e. Move the downloaded .uf2 firmware file into this storage. It will automatically trigger the firmware update process.
 
-f. Wait for the board to disconnect and reconnect automatically.
+ f. Wait for the board to disconnect and reconnect automatically.
 
 
 By following these steps, you will have Python, Node.js, Visual Studio Code, the PyMakr extension, and the latest MicroPython firmware set up for your Raspberry Pi Pico. You are now ready to start coding and uploading programs to your microcontroller.
