@@ -7,7 +7,7 @@ ID: ch223wu
  
 ## Overview
 This project is about measuring temperature and humidity and displaying their current values, as well as monitoring how these values change over time. 
-It is designed for beginners and can be completed within an estimated time frame of 2-3 hours, following this tutorial.
+It is designed for beginners and can be completed within an estimated time frame of 5-6 hours, following this tutorial.
 
 ## Objective
 The purpose of this project is to enable real-time monitoring of temperature and humidity, as well as logging the sensor data for analysis over time. 
