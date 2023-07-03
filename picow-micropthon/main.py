@@ -39,7 +39,7 @@ def send_temperature(temperature):
     print("Publishing temperature:", temperature)
     client.publish(topic=feed, msg=msg)
 
-#Send the humidtu data from sensor
+#Send the humidity data from sensor
 def sen_humidity(humidity):
     feed = "Braver_Parrot/feeds/humidity"
     msg = str(humidity)
@@ -62,7 +62,7 @@ try:                      # Code between try: and finally: may cause an error
         temperature = tempSensor.temperature()
         humidity = tempSensor.humidity()
       
-        # Skicka temperaturdata till Adafruit IO
+        # Send Data to AdaFruit
         send_temperature(temperature)
         sen_humidity(humidity)
 
