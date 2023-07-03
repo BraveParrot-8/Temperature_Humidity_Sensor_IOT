@@ -49,6 +49,7 @@ In the tutorial, I utilized the Windows operating system as my primary platform.
 4.Open Visual Studio Code and navigate to the Extensions Marketplace. Search for the "PyMakr" extension and install it. This extension enables communication and code uploading to the Raspberry Pi Pico from within Visual Studio Code.
 
 5.Update the firmware on the Raspberry Pi Pico:
+
  a. Download the MicroPython firmware in .uf2 format. Make sure to get the latest stable version from the Releases section and not the Nightly builds. You can find the firmware on the official Raspberry Pi Pico GitHub repository (https://github.com/raspberrypi/pico-micropython-examples/releases).
 
  b. Connect the micro-USB cable to the Raspberry Pi Pico.
