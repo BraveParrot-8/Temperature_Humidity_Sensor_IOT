@@ -10,9 +10,13 @@ This project is about measuring temperature and humidity and displaying their cu
 It is designed for beginners and can be completed within an estimated time frame of 5-6 hours, following this tutorial.
 
 ## Objective
+
+I chose this project because it provides a fundamental understanding of working with a sensor and utilizing the Raspberry Pi Pico.
+
 The purpose of this project is to enable real-time monitoring of temperature and humidity, as well as logging the sensor data for analysis over time. 
 This system provides valuable insights into the environment being monitored. 
 For instance, it can be utilized to track temperature and humidity levels on a balcony during the summer or to observe the impact of a running PC on room temperature in an office setting.
+
 
 ## Material
 For this project, we will be working with the Raspberry Pi Pico WH microcontroller. 
@@ -23,6 +27,8 @@ It has a measurement range of 0-50°C (32-122°F) for temperature and 20-90% RH 
 
 In addition, we will need a breadboard and a few jumper wires to connect all the components together. 
 To power the Raspberry Pi Pico WH, we will use a micro-USB cable, which will also allow us to connect it to our PC for programming and data transfer.
+
+I purchased all these items from Electrokit.
 
 |    | Material | Price (SEK) |
 |----|----------|-------------|
@@ -120,6 +126,7 @@ Data is sent every 20 seconds for real-time monitoring and long-term analysis pu
 ## Presenting data
 Now that we have successfully set up our Raspberry Pi Pico to send weather data to our feeds on Adafruit, we can visualize this data using the Adafruit platform.
 We have created a dashboard on Adafruit that utilizes the two feeds we previously set up.
+The data is sent every 20 seconds.
 
 
 <img src='https://github.com/BraveParrot-8/Temperature_Humidity_Sensor_IOT/blob/main/img/AdaFruit_Temp_Hum.png?raw=true' width = 800 height = 400>
