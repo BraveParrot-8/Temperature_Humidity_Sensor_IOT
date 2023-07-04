@@ -57,7 +57,7 @@ try:                      # Code between try: and finally: may cause an error
                           # so ensure the client disconnects the server if
                           # that happens.
     while 1:              # Repeat this loop forever
-        client.check_msg()# Action a message if one is received. Non-blocking.
+        client.check_msg()
         tempSensor.measure()
         temperature = tempSensor.temperature()
         humidity = tempSensor.humidity()
