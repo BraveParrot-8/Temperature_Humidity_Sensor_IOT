@@ -9,24 +9,23 @@ import random                 # Random number generator
 from machine import Pin       # Define pin
 from secrets import secrets
 
-# BEGIN SETTINGSS
-# These need to be change to suit your environment
+
 
 
 # Wireless network
 WIFI_SSID = secrets["ssid"]
-WIFI_PASS = secrets["password"] # No this is not our regular password. :)
+WIFI_PASS = secrets["password"] 
 
 # Adafruit IO (AIO) configuration
 AIO_SERVER = "io.adafruit.com"
 AIO_PORT = 1883
 AIO_USER = "" #Your Username here
 AIO_KEY =  "" #Your AIO Key here
-AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id())  # Can be anything
+AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id())  
 AIO_RANDOMS_FEED = "" #Adress for temp, could not change the name randoms for some reason
 AIO_HUMIDITY_FEED = "" # adress for humidity
  
-# END SETTINGS
+
 
 # FUNCTIONS
 
